@@ -4,7 +4,7 @@ This is the Chat UI for our project. It is a responsive chat interface built wit
 
 Note: This folder only contains the chat interface. It can be connected to a backend or AI agent later.
 
-**Overview**
+## Overview
 
 The Chat UI provides a simple, familiar chat-style experience. Users can type and send messages, see them displayed in chat bubbles, and scroll through the conversation. It uses modular components that can be easily extended or styled.
 
@@ -64,7 +64,7 @@ TailwindCSS v4
 shadcn/ui
 TypeScript
 
-**Contributing**
+## Contributing
 
 If you want to update or extend this Chat UI:
 
