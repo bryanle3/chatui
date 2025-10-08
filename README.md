@@ -1,10 +1,10 @@
-Chat UI
+**Chat UI**
 
 This is the Chat UI for our project. It is a responsive chat interface built with Next.js 15, TailwindCSS v4, and shadcn/ui components.
 
 Note: This folder only contains the chat interface. It can be connected to a backend or AI agent later.
 
-Overview
+**Overview**
 
 The Chat UI provides a simple, familiar chat-style experience. Users can type and send messages, see them displayed in chat bubbles, and scroll through the conversation. It uses modular components that can be easily extended or styled.
 
