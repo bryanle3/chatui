@@ -8,7 +8,7 @@ Note: This folder only contains the chat interface. It can be connected to a bac
 
 The Chat UI provides a simple, familiar chat-style experience. Users can type and send messages, see them displayed in chat bubbles, and scroll through the conversation. It uses modular components that can be easily extended or styled.
 
-Features
+**Features**
 
 Chat layout with messages and input box
 
@@ -22,7 +22,7 @@ Automatic scroll to the latest message
 
 Organized components for reusability
 
-Folder Structure
+**Folder Structure**
 
 src/app/page.tsx - Entry point for the Chat UI
 src/components/chat/ChatWindow.tsx - Main chat layout
@@ -31,7 +31,7 @@ src/components/chat/Composer.tsx - Input and send button
 src/components/ui/ - shadcn/ui components
 public/ - Static assets if needed
 
-Setup Instructions
+**Setup Instructions**
 
 Clone the repository or navigate to the folder.
 git clone https://github.com/your-org/chat-ui.git
@@ -49,7 +49,7 @@ pnpm dev
 Open your browser at http://localhost:3000
  to view the Chat UI.
 
-How to Test
+**How to Test**
 
 Send a message and verify it appears instantly.
 
@@ -57,14 +57,14 @@ Send multiple messages and confirm the scroll behavior works.
 
 Resize the window to check that the design is responsive.
 
-Tech Stack
+**Tech Stack**
 
 Next.js 15
 TailwindCSS v4
 shadcn/ui
 TypeScript
 
-Contributing
+**Contributing**
 
 If you want to update or extend this Chat UI:
 
