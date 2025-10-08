@@ -1,34 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Chat UI
 
-## Getting Started
+This is the Chat UI for our project. It is a responsive chat interface built with Next.js 15, TailwindCSS v4, and shadcn/ui components.
 
-First, run the development server:
+Note: This folder only contains the chat interface. It can be connected to a backend or AI agent later.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
+Overview
+
+The Chat UI provides a simple, familiar chat-style experience. Users can type and send messages, see them displayed in chat bubbles, and scroll through the conversation. It uses modular components that can be easily extended or styled.
+
+Features
+
+Chat layout with messages and input box
+
+Placeholder backend for now (ready for AI integration)
+
+TailwindCSS and shadcn/ui styling
+
+Responsive design for mobile and desktop
+
+Automatic scroll to the latest message
+
+Organized components for reusability
+
+Folder Structure
+
+src/app/page.tsx - Entry point for the Chat UI
+src/components/chat/ChatWindow.tsx - Main chat layout
+src/components/chat/MessageBubble.tsx - Chat message bubble component
+src/components/chat/Composer.tsx - Input and send button
+src/components/ui/ - shadcn/ui components
+public/ - Static assets if needed
+
+Setup Instructions
+
+Clone the repository or navigate to the folder.
+git clone https://github.com/your-org/chat-ui.git
+
+cd chat-ui
+
+Install dependencies.
+pnpm install
+(or npm install)
+
+Run the development server.
 pnpm dev
-# or
-bun dev
-```
+(or npm run dev)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser at http://localhost:3000
+ to view the Chat UI.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+How to Test
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Send a message and verify it appears instantly.
 
-## Learn More
+Send multiple messages and confirm the scroll behavior works.
 
-To learn more about Next.js, take a look at the following resources:
+Resize the window to check that the design is responsive.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Next.js 15
+TailwindCSS v4
+shadcn/ui
+TypeScript
 
+Contributing
+
+If you want to update or extend this Chat UI:
+
+Add new components under src/components/chat/
+
+Adjust styling in globals.css
+
+Keep shared UI components in src/components/ui/
+
+Please follow consistent naming and formatting conventions.
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
